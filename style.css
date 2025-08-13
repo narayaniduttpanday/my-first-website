@@ -80,3 +80,71 @@ form{
     height: 2px;
     background-color: black;
 }
+
+/* Dark mode overrides */
+body.dark-mode {
+    background-color: #121212;
+    color: white;
+}
+
+body.dark-mode header {
+    background-color: #1e88a8; /* Darker shade for header */
+}
+
+body.dark-mode main {
+    background-color: #1c1c1c; /* Darker background for main content */
+}
+
+body.dark-mode footer {
+    background-color: #a1006a; /* Darker footer shade */
+}
+
+body.dark-mode a {
+    color: #ffffff;
+}
+
+body.dark-mode a:hover {
+    background-color: #444;
+    color: #ffdd57;
+}
+
+/* Dark mode table styling */
+body.dark-mode table, 
+body.dark-mode th, 
+body.dark-mode td {
+    border: 1px solid #555;
+}
+
+body.dark-mode th {
+    background-color: #333;
+    color: white;
+}
+
+body.dark-mode tbody tr:nth-child(even) {
+    background-color: #2a2a2a;
+}
+
+body.dark-mode tbody tr:nth-child(odd) {
+    background-color: #1e1e1e;
+}
+
+body.dark-mode tbody tr:hover {
+    background-color: #444;
+}
+
+/* Dark mode form styling */
+body.dark-mode form {
+    border-color: #aaa;
+    background-color: #222;
+    color: white;
+}
+
+body.dark-mode input {
+    background-color: #333;
+    color: white;
+    border: 1px solid #555;
+}
+
+body.dark-mode .ruling {
+    background-color: #888;
+}
