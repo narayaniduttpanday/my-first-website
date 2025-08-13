@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Skills Test</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header> 
+        <h1>Welcome to the Web Skills Test</h1>
+
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <!-- Fixed table structure -->
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Age</th>
+                        <th>Skill</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Alice</td>
+                        <td>20</td>
+                        <td>HTML</td>
+                    </tr>
+                    <tr>
+                        <td>Bob</td>
+                        <td>22</td>
+                        <td>CSS</td>
+                    </tr>
+                    <tr>
+                        <td>Charlie</td>
+                        <td>21</td>
+                        <td>JavaScript</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <img src="https://images.unsplash.com/photo-1754770584877-73ba9341671c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwzfHx8ZW58MHx8fHx8" alt="a girl standing in the grass">
+
+        <!-- Also fixed labels to properly link to inputs -->
+        <form action="/action">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name">
+            <br>
+            <hr class="ruling">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email">
+            <br>
+            <hr class="ruling">
+            <label for="message">Message</label>
+            <input type="text" id="message" name="message" placeholder="Enter your message">
+
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+
+</body>
+</html>
